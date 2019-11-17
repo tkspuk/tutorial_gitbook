@@ -28,7 +28,7 @@
 未来修改书籍发布仅需要以下两个命令
 
 ```
-gitbook build ./ docs
+gitbook build ./ docs   //发布书籍
 git add --all
 git commit -m "some update"
 git push -u origin master

@@ -21,14 +21,14 @@
     ```
 5. 点击这个仓库的**Settings**，找到**GitHub Pages**配置选项，在**Source**配置中选择`master branch/docs folder`选项，大功告成。
 
-经过上述才做，Github会自动为你分配一个网址。
+经过上述步骤，Github会自动为你分配一个网址。
 
 > http://USERNAME.github.io/tutorial_gitbook
 
 未来修改书籍发布仅需要以下两个命令
 
 ```
-gitbook build ./ docs
+gitbook build ./ docs   //发布书籍
 git add --all
 git commit -m "some update"
 git push -u origin master

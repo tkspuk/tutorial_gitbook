@@ -80,7 +80,7 @@
             "cutWordLib": "nodejieba"
         },
         "donate": {
-            "wechat": "./imgs/wechat.png",
+            "wechat": "/imgs/wechat.png",
             "title": "对你有帮助",
             "button": "赞赏",
             "WeChatText": "感谢感谢"

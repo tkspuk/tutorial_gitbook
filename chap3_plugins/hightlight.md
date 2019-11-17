@@ -2,7 +2,7 @@
 
 使用 Prism.js 为语法添加高亮显示，需要将 highlight 插件去掉。
 
-地址： <https://plugins.gitbook.com/plugin/prism> <https://plugins.gitbook.com/plugin/prism-themes>
+地址： [prism](https://www.npmjs.com/package/gitbook-plugin-prism)
 
 ```json
 {

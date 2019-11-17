@@ -81,9 +81,11 @@
         },
         "donate": {
             "wechat": "/tutorial_gitbook/imgs/wechat.png",
+            "alipay": "",
             "title": "对你有帮助",
             "button": "赞赏",
-            "wechatText": "微信捐赠"
+            "wechatText": "微信捐赠",
+            "alipayText": "支付宝捐赠"
         },
         "localized-footer": {
             "hline": true,

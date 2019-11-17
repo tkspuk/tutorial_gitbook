@@ -25,6 +25,9 @@
 
 > http://USERNAME.github.io/tutorial_gitbook
 
+
+
+
 未来修改书籍发布仅需要以下两个命令
 
 ```
@@ -34,8 +37,14 @@ git commit -m "some update"
 git push -u origin master
 ```
 
+上述命令打包成一个脚本`bookpublish.sh` 执行命令`./bookpublish.sh`一键发布更新
 
 
+
+
+
+
+-------
 ## 方法二：使用项目gh-pages分支提供服务
 
 除了上面的直接发布静态文件到Github Pages的方法以外，还可以使用一个单独的项目的Github Pages功能。

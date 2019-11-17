@@ -80,10 +80,10 @@
             "cutWordLib": "nodejieba"
         },
         "donate": {
-            "wechat": "/imgs/wechat.png",
+            "wechat": "/tutorial_gitbook/imgs/wechat.png",
             "title": "对你有帮助",
             "button": "赞赏",
-            "WeChatText": "感谢感谢"
+            "wechatText": "微信捐赠"
         },
         "localized-footer": {
             "hline": true,

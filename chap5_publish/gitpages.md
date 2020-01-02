@@ -37,7 +37,7 @@ git commit -m "some update"
 git push -u origin master
 ```
 
-上述命令打包成一个脚本`bookpublish.sh` 执行命令`./bookpublish.sh`一键发布更新
+上述命令打包成一个脚本`gitbookpush.sh` 执行命令`./gitbookpush.sh`一键发布更新
 
 
 

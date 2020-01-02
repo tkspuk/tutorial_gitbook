@@ -1,23 +1,31 @@
-# Gitbook命令行使用
+# Gitbook初始化一本书
 
-Gitbook是一个命令行工具，使用方法：
+Gitbook可以通过命令行工具，进行书籍的管理，使用方法如下：
+
+## Book的目录结构
+新写一本书的时候，需要从**模板中**复制以下文件，
+```
+├── FOOTER.md   底标文件
+├── README.md   书籍说明
+├── SUMMARY.md  书籍目录与结构
+└── book.json   书籍的配置文件
+```
 
 ## 初始化
-初始化一本书
+首先安装**book.json**中定义的插件与配置。
 
-    gitbook init
-
-在使用 `gitbook init` 之后本地会生成两个文件 `README.md` 和 `SUMMARY.md` ，这两个文件都是必须的，一个为介绍，一个为目录结构。
-
-## 编辑电子书
-首先，GitBook使用SUMMARY.md文件组织整个内容的目录，比如可以新建 `Faq.md` 文件，来记录常见问题，并在 SUMMARY.md 文件中添加目录。
-
-```markdown
-# Summary
-
-* [简介](README.md)
-* [常见问题](Faq.md)
 ```
+gitbook install 
+```
+
+其次，在使用 `gitbook init` 之后本地会生成两个文件 `README.md` 和 `SUMMARY.md` ，这两个文件都是必须的，一个为介绍，一个为目录结构。
+
+```
+gitbook init
+```
+
+如何编写`SUMMARY.md`和`README.md` 将在后续章节详细介绍[README.md 与 SUMMARY编写](../chap2_content/basic.md)
+
 
 ## 本地预览
 当内容书写完毕后，可以在终端中输入如下命令，实现实时预览
@@ -65,3 +73,16 @@ $ gitbook -h
     -h, --help     output usage information
     -V, --version  output the version number
 ```
+
+
+## 一键发布到github脚本
+执行gitbookpush命令进行gitbook发布
+```
+#!/bin/sh
+gitbook build ./ docs
+git add --all
+git commit -m "book update"
+git push -u origin master
+```
+
+前提需要做好github的的初始化工作[github初始化](../chap5_publish/gitpages.md)

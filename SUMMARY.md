@@ -2,9 +2,8 @@
 
 * [介绍](README.md)
 * [基本安装](chap1_installation/README.md)
-    * [Node.js安装](chap1_installation/nodejs-install.md)
-    * [Gitbook命令安装](chap1_installation/gitbook-install.md)
-    * [Gitbook命令行速览](chap1_installation/gitbook-cli.md)
+    * [Gitbook系统安装](chap1_installation/gitbook-install.md)
+    * [Gitbook初始化一本书](chap1_installation/gitbook-initial.md)
 * [电子书目录结构](chap2_content/README.md)
     * [README.md 与 SUMMARY编写](chap2_content/basic.md)
     * [目录初始化](chap2_content/multi-summary.md)
